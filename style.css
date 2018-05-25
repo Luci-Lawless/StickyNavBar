@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
 html {
   box-sizing: border-box;
   background:#eeeeee;
@@ -24,7 +25,8 @@ body {
 }
 
 h2 {
-  color: black;
+  color:rgb(175, 17, 28);
+  font-family: 'IM Fell English', serif;
 }
 
 .fixed-nav .site-wrap {
@@ -32,23 +34,24 @@ h2 {
 }
 
 header {
-  text-align: center;
+  text-align: right;
+  font-family: 'IM Fell English', serif;
   height:50vh;
-  background:url(http://www.kinyu-z.net/data/wallpapers/54/890984.jpg) bottom center no-repeat;
-  background-size:cover;
+  background: url(http://res.cloudinary.com/di7m4tijz/image/upload/c_scale,h_296,w_807/v1527275015/slayer-2015-new-album-relentless_rojuih.jpg) top center no-repeat;
+  background-size: cover;
   display:flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
 
 h1 {
-  color:white;
-  font-size: 7vw;
+  color:rgb(175, 17, 28);
+  font-size: 5vw;
   text-shadow: 3px 4px 0 rgba(0,0,0,0.2)
 }
 
 nav {
-  background:black;
+  background: black;
   top:0;
   width: 100%;
   transition:all 0.5s;
@@ -59,6 +62,10 @@ nav {
 .fixed-nav nav {
   position: fixed;
   box-shadow: 0 5px rgba(0,0,0,0.1);
+}
+
+.blood {
+  position: absolute;
 }
 
 nav ul {
@@ -74,6 +81,7 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'IM Fell English', serif;
 }
 
 li.logo {
@@ -97,7 +105,7 @@ nav a {
   text-decoration: none;
   padding:20px;
   display: inline-block;
-  color:white;
+  color:rgb(175, 17, 28);
   transition:all 0.2s;
   text-transform: uppercase;
 }
